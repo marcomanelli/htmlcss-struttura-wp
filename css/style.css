@@ -1,0 +1,65 @@
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* HEADER */
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: palevioletred;
+}
+
+.img{
+  width: 100%;
+  height: 400px;
+  background-color: yellow;
+}
+
+/* MAIN */
+.titolo{
+  background-color: lightblue;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0;
+}
+
+.container{
+  background-color: blue;
+}
+
+.blocco{
+  float: left;
+  background-color: lightblue;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.p1{
+  width: 31%;
+  margin-right: 2%;
+}
+
+.p2{
+  width: 34%;
+  margin-right: 2%;
+}
+
+.p3{
+  width: 31%;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: purple;
+}
