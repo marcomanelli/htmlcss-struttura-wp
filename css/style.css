@@ -12,6 +12,11 @@
   clear: both;
 }
 
+.container{
+  width: 80%;
+  margin: auto;
+}
+
 /* HEADER */
 nav{
   width: 100%;
@@ -33,7 +38,7 @@ nav{
   margin-bottom: 0;
 }
 
-.container{
+.colonne{
   background-color: blue;
 }
 
